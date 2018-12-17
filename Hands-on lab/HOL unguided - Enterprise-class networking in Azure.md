@@ -184,7 +184,7 @@ In this exercise, you will deploy a web application using an ARM template. Once 
 
     ![The Cloud shop webpage displays, with a message displaying, saying that Products are running on WGWEB1. Below that, a drop-down list of products display.](images/Hands-onlabunguided-Enterprise-classnetworkinginAzureimages/media/image24.png "Cloud shop webpage")
 
--   Create an Internal load balancer in the WebTier Subnet of the VNet and assign it a static IP Address of 10.7.1.10.
+-   Create an Internal load balancer in the WebTier Subnet of the VNet and assign it a static IP Address of 10.7.1.10. ( This looks to be a mistake it should be **10.8.1.10** )
 
 -   RDP to WGWEB1 and browse to <http://10.7.1.10> validate the CloudShop app has been configured behind the internal load balancer and connecting to both web servers.
 
@@ -236,7 +236,7 @@ Configure a Virtual Network peering from both Virtual Network bidirectional.
 
 Duration: 15 minutes
 
-In this exercise, you will provision and configure an Enterprise grade firewall solution in your Azure Vnet.
+In this exercise, you will provision and configure an Enterprise grade firewall solution in your Azure Vnet. 
 
 ### Tasks to complete
 
